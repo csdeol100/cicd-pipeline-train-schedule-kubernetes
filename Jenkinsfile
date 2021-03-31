@@ -1,6 +1,5 @@
 pipeline {
     agent any
-    tool name: 'gradle', type: 'gradle'
     environment {
         //be sure to replace "willbla" with your own Docker Hub username
         DOCKER_IMAGE_NAME = "csdeol100/train-schedulekube"
